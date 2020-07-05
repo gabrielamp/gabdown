@@ -16,7 +16,7 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   
   <!-- Gabdown -->
-  <script src="https://raw.githubusercontent.com/gabrielamp/gabdown/master/gabdown.js"></script>
+  <script src="https://gabrielamp.github.io/gabdown/gabdown.js"></script>
 ```
 
 ## Usage
