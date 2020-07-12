@@ -1,16 +1,29 @@
 # gabdown
 
 ## gabdown for Webpages
-There are two options to get started making websites with gabdown:
-* you can download the repository as `.zip` (by clicking on **Code** and then **Download ZIP**)
-* running `git clone https://github.com/gabrielamp/gabdown.git`
 
-### Usage 
-1. Edit the `index.gd` file
-2. Preview the file with `python3 -m http.server 8080`
-3. Upload the project as a GitHub repository
-4. Go to **Settings** > **GitHub Pages** > **Source**, and select **master branch**
-5. Your page is now accessible at `githubusername.github.io/repositoryname` where `githubusername` is your username and `repository name` is the name of the repository made in step 3.
+### Usage (No Command Line) 
+1. Download the repository as `.zip` (by clicking on **Code** and then **Download ZIP**)
+2. Extract `index.html`, `index.gd` and `style.css` into the desired folder
+3. Edit the `index.gd` file
+4. Make a GitHub repository
+5. Upload `index.html`, `index.gd` and `style.css` to the repository
+6. Go to **Settings** > **GitHub Pages** > **Source**, and select **master branch**
+7. Your page is now accessible at `githubusername.github.io/repositoryname` where `githubusername` is your username and `repository name` is the name of the repository made in step 4.
+
+### Usage (Command Line)
+1. Go to your desired project directory
+2. Download the necessary files using
+```
+wget https://raw.githubusercontent.com/gabrielamp/gabdown/master/index.gd
+wget https://raw.githubusercontent.com/gabrielamp/gabdown/master/index.html
+wget https://raw.githubusercontent.com/gabrielamp/gabdown/master/style.css
+```
+3. Edit the `index.gd` file
+4. Preview the file with `python3 -m http.server 8080`
+5. Upload the project as a GitHub repository
+6. Go to **Settings** > **GitHub Pages** > **Source**, and select **master branch**
+7. Your page is now accessible at `githubusername.github.io/repositoryname` where `githubusername` is your username and `repository name` is the name of the repository made in step 5.
 
 
 ## gabdown as a Library
