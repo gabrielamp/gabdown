@@ -2,6 +2,9 @@
 
 ## gabdown for Webpages
 
+### Example
+An example gabdown rendered page looks like [this](https://gabrielamp.github.io/gabdown/).
+
 ### Usage (No Command Line) 
 1. Download the repository as `.zip` (by clicking on **Code** and then **Download ZIP**)
 2. Extract `index.html`, `index.gd` and `style.css` into the desired folder
