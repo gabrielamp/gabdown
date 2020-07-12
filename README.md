@@ -1,6 +1,21 @@
 # gabdown
 
-## Import
+## gabdown for Webpages
+There are two options to get started making websites with gabdown:
+* you can download the repository as `.zip` (by clicking on **Code** and then **Download ZIP**)
+* running `git clone https://github.com/gabrielamp/gabdown.git`
+
+### Usage 
+1. Edit the `index.gd` file
+2. Preview the file with `python3 -m http.server 8080`
+3. Upload the project as a GitHub repository
+4. Go to **Settings** > **GitHub Pages** > **Source**, and select **master branch**
+5. Your page is now accessible at `githubusername.github.io/repositoryname` where `githubusername` is your username and `repository name` is the name of the repository made in step 3.
+
+
+## gabdown as a Library
+
+### Import
 
 ```HTML
   <!-- KaTeX -->
@@ -19,7 +34,7 @@
   <script src="https://gabrielamp.github.io/gabdown/gabdown.js"></script>
 ```
 
-## Usage
+### Usage
 
 ```javascript
   // Render gabdown content inside of element.
