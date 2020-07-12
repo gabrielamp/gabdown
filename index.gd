@@ -10,7 +10,7 @@ Etiam dapibus massa libero, ut imperdiet est eleifend ac.
 Phasellus molestie tincidunt magna eget tincidunt.
 Fusce congue fermentum blandit.
 \[ \int_X f \ d\mu \]
-Suspendisse mollis rhoncus consectetur.
+Suspendisse mollis $A \subseteq B$ rhoncus consectetur.
 Vivamus massa lectus, pharetra eget magna eu, vehicula interdum erat.
 Suspendisse ullamcorper, arcu et pharetra lacinia, libero purus dapibus justo, sed vulputate augue leo at neque.
 Mauris faucibus pulvinar magna, ut mattis turpis ornare et.

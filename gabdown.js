@@ -18,20 +18,29 @@ function createCustomElement(name, first, last) {
       this.innerHTML = marked(processString(first + this.innerHTML + last));
     }
     connectedCallback() {
-      renderMathInElement(this);
+      renderMathInElement(this,
+        [
+          {left: "$$", right: "$$", display: true},
+          {left: "\\(", right: "\\)", display: false},
+          {left: "\\[", right: "\\]", display: true},
+          {left: "\\\\(", right: "\\\\)", display: false},
+          {left: "\\\\[", right: "\\\\]", display: true}
+        ]);
     }
   });
 }
 
 function gabify(element, gabdown) {
   element.innerHTML = marked(processString(gabdown));
-  renderMathInElement(element,
-    [
-      {left: "$$", right: "$$", display: true},
-      {left: "\\(", right: "\\)", display: false},
-      {left: "\\[", right: "\\]", display: true},
-      {left: "\\\\(", right: "\\\\)", display: false},
-      {left: "\\\\[", right: "\\\\]", display: true}
-    ]
+  renderMathInElement(element, {
+      delimiters: [
+        {left: "$", right: "$", display: false},
+        {left: "$$", right: "$$", display: true},
+        {left: "\\(", right: "\\)", display: false},
+        {left: "\\[", right: "\\]", display: true},
+        {left: "\\\\(", right: "\\\\)", display: false},
+        {left: "\\\\[", right: "\\\\]", display: true}
+      ]
+    }
   );
 }
