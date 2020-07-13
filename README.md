@@ -2,6 +2,9 @@
 
 ## gabdown for Webpages
 
+### Example
+An example gabdown rendered page looks like [this](https://gabrielamp.github.io/gabdown/).
+
 ### Usage (No Command Line) 
 1. Download the repository as `.zip` (by clicking on **Code** and then **Download ZIP**)
 2. Extract `index.html`, `index.gd` and `style.css` into the desired folder
@@ -20,7 +23,7 @@ wget https://raw.githubusercontent.com/gabrielamp/gabdown/master/index.html
 wget https://raw.githubusercontent.com/gabrielamp/gabdown/master/style.css
 ```
 3. Edit the `index.gd` file
-4. Preview the file with `python3 -m http.server 8080`
+4. Preview the file with `python3 -m http.server 8080` and go to [http://localhost:8080](http://localhost:8080).
 5. Upload the project as a GitHub repository
 6. Go to **Settings** > **GitHub Pages** > **Source**, and select **master branch**
 7. Your page is now accessible at `githubusername.github.io/repositoryname` where `githubusername` is your username and `repository name` is the name of the repository made in step 5.
