@@ -1,5 +1,5 @@
 :root {
-  --margin-size: min(100px, 7.5 vw);
+  --margin-size: min(100px, 7.5vw);
 }
 
 body {
