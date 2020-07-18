@@ -1,5 +1,5 @@
 :root {
-  --margin-size: min(100px, 7.5vw);
+  --margin-size: min(150px, 7.5vw);
 }
 
 body {
@@ -9,6 +9,7 @@ body {
   margin-bottom: var(--margin-size);
   font-family: "Computer Modern Serif";
   font-size: large;
+  text-align: justify;
 }
 
 h1 {
@@ -17,4 +18,14 @@ h1 {
 
 .katex {
   font-size: 1em !important;
+}
+
+pre {
+  margin-left: calc(var(--margin-size)*0.5);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: max(40%, 300px);
 }

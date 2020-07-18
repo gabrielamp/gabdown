@@ -18,13 +18,6 @@ Etiam elit dui, condimentum ornare arcu sed, egestas pharetra ex.
 Maecenas quis accumsan urna. Praesent consectetur neque ut arcu viverra euismod.
 Maecenas consectetur ac tellus ut dignissim. Mauris eget massa vel felis lacinia venenatis.
 
-This is how you can make a list:
-
-Groceries:
-1. Milk
-2. Eggs
-3. Bread
-4. Vegan tomatoes
 
 ## Some Definitions
 
@@ -52,6 +45,32 @@ This theorem is false.
 <proof-env>
 Here is the proof.
 </proof-env>
+
+## Images
+
+![Cow turning into a sphere.](https://upload.wikimedia.org/wikipedia/commons/2/24/Spot_the_cow.gif)
+
+## Lists
+
+Groceries:
+* Milk
+* Eggs
+* Bread
+* Vegan tomatoes
+
+Recipe:
+1. Heat oven to 700 degrees celsius.
+2. Throw milk, eggs, bread and vegan tomatoes, one by one, inside oven.
+3. Wait 30 minutes, or until fire alarm goes off.
+4. Now it's ready!
+
+## Code
+
+```
+let x = 1;
+let y = 2;
+console.log(x + y);
+```
 
 ## Markdown
 
