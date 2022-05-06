@@ -15,7 +15,7 @@ function createCustomElement(name, first, last) {
   customElements.define(name, class extends HTMLElement {
     constructor() {
       super();
-      this.innerHTML = marked(processString(first + this.innerHTML + last));
+      this.innerHTML = marked.parse(processString(first + this.innerHTML + last));
     }
     connectedCallback() {
       renderMathInElement(this,
@@ -31,7 +31,7 @@ function createCustomElement(name, first, last) {
 }
 
 function gabify(element, gabdown) {
-  element.innerHTML = marked(processString(gabdown));
+  element.innerHTML = marked.parse(processString(gabdown));
   renderMathInElement(element, {
       delimiters: [
         {left: "$", right: "$", display: false},
